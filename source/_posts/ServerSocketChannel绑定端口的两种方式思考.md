@@ -4,9 +4,10 @@ date: 2019-08-23 23:03:20
 tags:
 	- java
 categories: Java
-toc: true
 ---
-> 近期学习NIO的时候，发现`ServerSocketChannel`有两种绑定端口的方式：
+近期学习NIO的时候，发现`ServerSocketChannel`有两种绑定端口的方式：
+
+<!-- more -->
 
 ```java
 // 方式1
