@@ -7,6 +7,8 @@ tags: docker
 
 接入disconf使用docker部署jar包启动无法指定配置参数，官方其实已经指出解决方案
 
+<!-- more -->
+
 ![image-20200904112807411](https://i.loli.net/2020/09/04/p4f89U2JjWQtvLM.png)
 
 这对于直接用java -jar 来启动该springboot项目是OK的，但是构建到docker里就不行了，dockerfile是提前写好的，里面已经写死了启动命令了，后期我们只能去修改docker的启动端口什么的，无法再传入上面的java -Ddisconf.XXX参数了（或者会的话告诉我一下，就不用下面的步骤了）。那么怎么在不同的环境下动态设置disconf.env参数呢，在使用同一个docker镜像的情况下。
@@ -17,11 +19,7 @@ tags: docker
 
 解决方案如下：
 
-<!-- more -->
-
 ```java
-
-​```
 package com.xy.onlineteam.HSEI.config;
 
 import com.baidu.disconf.client.DisconfMgrBean;
@@ -61,8 +59,6 @@ public class DisConfig implements EnvironmentAware {
         }
     }
 }
-​```
-
 ```
 
-docker run 启动时，-e指定disconf环境参数
+docker run 启动时，-e 指定disconf环境参数
