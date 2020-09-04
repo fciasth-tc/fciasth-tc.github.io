@@ -2,7 +2,7 @@
 title: apollo使用docker-compose部署
 toc: true
 date: 2019-10-12 11:30:50
-categories: Dcoker
+categories: Docker
 tags: docker
 ---
 
