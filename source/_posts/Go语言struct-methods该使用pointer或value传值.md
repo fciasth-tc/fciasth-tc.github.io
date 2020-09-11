@@ -1,8 +1,8 @@
 ---
 title: Go语言struct methods该使用pointer或value传值?
 date: 2019-09-11 11:26:47
-categories:Go
-tags:go
+categories: Go
+tags: go
 ---
 
 在 Go 语言如何区分 `func (s *MyStruct)` 及 `func (s MyStruct)`，底下我们先来看看简单的 Struct 例子
