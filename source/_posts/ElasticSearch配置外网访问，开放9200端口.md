@@ -3,7 +3,6 @@ title: ElasticSearch配置外网访问，开放9200端口
 date: 2018-05-27 09:25:26
 tags: 
    - elasticsearch
-   - linux
 categories: ElasticSearch
 toc: true
 ---

@@ -3,8 +3,8 @@ title: Go语言搭配Docker Healthy Check检查
 date: 2018-03-17 14:47:43
 categories: Go
 tags: 
-	- docker
- 	- go
+  - docker
+  - go
 ---
 
 在 Docker 1.12 版本后，提供了 HEALTHCHECK 指令，通过指定的一行命令来判断容器内的服务是否正常运作。在此之前大部分都是透过判断程式是否 Crash 来决定容器是否存活，但是这地方有点风险的是，假设服务并非 crash，而是没办法退出容器，造成无法接受新的请求，这就确保容器存活。现在呢我们可以透过在 Dockerfile 内指定 HEALTHCHECK 指令来确保服务是否正常。而用 Go 语言开发的 Web 服务该如何来实现呢？
