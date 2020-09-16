@@ -7,7 +7,7 @@ tags: docker
 
 Minikube是一个快速搭建单节点Kubenetes集群的工具，大家可以把它和docker Machine进行类比。
 
-
+<!-- more -->
 
 ## 1. 安装Minikube可执行程序
 
