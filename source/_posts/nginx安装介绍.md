@@ -44,7 +44,7 @@ Setenforce  0  关闭selinux（只是临时关闭
 
 > 修改/etc/sysconfig/selinux文件可以永久地禁用它。
 
-![关闭selinu](关闭selinu.png)
+![](关闭selinu.png)
 
 5.安装基础依赖
 
@@ -61,13 +61,13 @@ yum -y install wget httpd-tools vim
 cd /opt;mkdir app download logs work backup
 ```
 
-![nginx01](nginx01.png)
+![](nginx01.png)
 
 <h3> 二、下载安装 </h3>
 
 前往nginx官方下载页面：[http://nginx.org/en/download.html](http://nginx.org/en/download.html)
 
-![nginx02](nginx02.png)
+![](nginx02.png)
 
 > 对应版本介绍
 
@@ -83,19 +83,19 @@ cd /opt;mkdir app download logs work backup
 
 > create the file named /etc/yum.repos.d/nginx.repo with the following contents:
 
-![nginx03](nginx03.png)
+![](nginx03.png)
 
 查看nginx yum源
 
-![nginx04png](nginx04png.png)
+![](nginx04png.png)
 
 ```shell
 yum install nginx
 ```
 
-![nginx05](nginx05.png)
+![](nginx05.png)
 
 安装完成，查看安装好的nginx版本：
 
-![nginx06](nginx06.png)
+![](nginx06.png)
 
