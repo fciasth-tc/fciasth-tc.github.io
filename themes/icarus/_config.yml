@@ -86,7 +86,7 @@ comment:
     
 
 # Share
-share: addtoany  # options: jiathis, bdshare, addtoany, default
+# share: addtoany  # options: jiathis, bdshare, addtoany, default
 
 # Plugins
 plugins:
