@@ -112,4 +112,4 @@ miscellaneous:
 post_sidebar: false  #display sidebar in post page if true
 home_sidebar: true #display sidebar in home page if true
 # CNZZ id
-cnzz: 1273681035  #这里填入你在站长统计注册后的web_id
+# cnzz: 1273681035  #这里填入你在站长统计注册后的web_id
