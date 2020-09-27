@@ -1,38 +1,58 @@
-index:
-    home: 'home'
-    search: 'Search'
-    archive: 'archive'
-    category: 'category'
-    uncategorized: 'uncategorized'
-    tag: 'tag'
-nav:
+common:
+    archive:
+        one: 'Archive'
+        other: 'Archives'
+    category:
+        one: 'Category'
+        other: 'Categories'
+    tag:
+        one: 'Tag'
+        other: 'Tags'
+    post:
+        one: 'Post'
+        other: 'Posts'
+    page:
+        one: 'Page'
+        other: 'Pages'
+    prev: 'Previous'
     next: 'Next'
-    prev: 'Prev'
-    older: 'Older'
-    newer: 'Newer'
 widget:
-    recents: 'recent'
-    archives: 'archives'
-    categories: 'categories'
-    links: 'links'
-    tags: 'tags'
-    tag_cloud: 'tag cloud'
-article:
-    more: 'Read More'
-    comments: 'Comments'
-    share: 'Share'
+    follow: 'Follow'
+    recents: 'Recents'
+    links: 'Links'
     catalogue: 'Catalogue'
-profile:
-    follow: 'FOLLOW'
-    post: 'post'
-    tag: 'tag'
-    posts: 'posts'
-    tags: 'tags'
-insight:
+    subscribe_email: 'Subscribe for updates'
+    subscribe: 'Subscribe'
+    adsense: 'Advertisement'
+article:
+    created_at: 'Posted&nbsp;%s'
+    updated_at: 'Updated&nbsp;%s'
+    more: 'Read more'
+    comments: 'Comments'
+    read_time: '%s read'
+    word_count:
+        one: 'About %d word'
+        other: 'About %d words'
+    licensing:
+        author: 'Author'
+        created_at: 'Posted on'
+        updated_at: 'Updated on'
+        licensed_under: 'Licensed under'
+donate:
+    title: 'Like this article? Support the author with'
+    afdian: 'Afdian.net'
+    alipay: 'Alipay'
+    wechat: 'Wechat'
+    paypal: 'Paypal'
+    patreon: 'Patreon'
+    buymeacoffee: 'Buy me a coffee'
+plugin:
+    backtotop: 'Back to top'
+    visit_count: '%s&nbsp;visits'
+    visitor_count: 'Visited by %s users'
+search:
+    search: 'Search'
     hint: 'Type something...'
-    posts: 'Posts'
-    pages: 'Pages'
-    categories: 'Categories'
-    tags: 'Tags'
+    no_result: 'No results for'
     untitled: '(Untitled)'
-
+    empty_preview: '(No preview)'
