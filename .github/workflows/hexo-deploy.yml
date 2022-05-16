@@ -1,20 +1,33 @@
-name: deploying Hexo project to GitHub pages
+name: CI
 on:
   push:
     branches:
-      - master # master 分支有 push 行为时就触发这个 action
-
+      - hexo
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@master
+      - name: 切换分支
+        uses: actions/checkout@v2
 
-      - name: Build and Deploy
-        uses: theme-keep/hexo-deploy-github-pages-action@master # 使用专门部署 Hexo 到 GitHub pages 的 action
-        env:
-          PERSONAL_TOKEN: ${{ secrets.HEXO_DEPLOY }} # secret 名
-          PUBLISH_REPOSITORY: tcxiaotudou/tcxiaotudou.github.io # 公共仓库，格式：GitHub 用户名/仓库名
-          BRANCH: hexo-pages # 分支，填 gh-pages 就行
-          PUBLISH_DIR: ./public # 部署 public 目录下的文件
+      - name: 安装依赖
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: npm ci
+
+      - name: 清除Hexo
+        uses: heowc/action-hexo@main
+        with:
+          args: clean
+
+      - name: 生成Hexo
+        uses: heowc/action-hexo@main
+        with:
+          args: generate
+
+      - name: 部署到master分支
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.HEXO_DEPLOY }}
+          external_repository: tcxiaotudou/tcxiaotudou.github.io
+          publish_branch: hexo-pages
+          publish_dir: ./public
