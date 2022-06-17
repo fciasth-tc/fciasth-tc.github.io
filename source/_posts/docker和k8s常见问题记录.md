@@ -27,3 +27,9 @@ CMD ["java","-jar","/opt/app.jar"]
 
 
 
+### 2. 强制删除pod
+
+```bash
+kubectl delete pod app_pod --grace-period=0 --force
+```
+
