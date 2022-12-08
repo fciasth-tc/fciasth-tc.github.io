@@ -1,7 +1,7 @@
 ---
 title: go-zero学习笔记
 date: 2022-05-16 16:23:10
-categories:
+categories: Go
 tags:
   - go
 ---

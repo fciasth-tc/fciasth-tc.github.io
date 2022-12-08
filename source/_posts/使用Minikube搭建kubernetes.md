@@ -1,8 +1,8 @@
 ---
 title: 使用Minikube搭建kubernetes
 date: 2019-09-16 16:00:40
-categories: Docker
-tags: docker
+categories: K8s
+tags: k8s
 ---
 
 Minikube是一个快速搭建单节点Kubenetes集群的工具，大家可以把它和docker Machine进行类比。
