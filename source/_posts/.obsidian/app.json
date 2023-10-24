@@ -1,5 +1,5 @@
 {
   "useMarkdownLinks": true,
-  "attachmentFolderPath": "./assets",
+  "attachmentFolderPath": "./接入disconf使用docker部署jar包启动无法指定配置参数",
   "livePreview": false
 }
