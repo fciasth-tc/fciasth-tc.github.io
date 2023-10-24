@@ -18,7 +18,12 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: ':lang'
-skip_render: README.md
+skip_render:
+  # 这里排除的是obsidian编辑器需要的文件
+  - '_posts/.obsidian/*'
+  - '_posts/template/*'
+  - '_posts/Templates/*'
+  - 'README.md'
 new_post_name: ':title.md'
 default_layout: post
 titlecase: false

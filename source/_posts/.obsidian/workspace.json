@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "使用Minikube搭建kubernetes.md",
-                "mode": "source",
-                "source": false
+                "file": "go-zero学习笔记.md",
+                "mode": "preview",
+                "source": true
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "使用Minikube搭建kubernetes.md",
+                "file": "go-zero学习笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "使用Minikube搭建kubernetes.md",
+                "file": "go-zero学习笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "使用Minikube搭建kubernetes.md"
+                "file": "go-zero学习笔记.md"
               }
             }
           },
@@ -157,9 +157,11 @@
   },
   "active": "d33a527155f0aa23",
   "lastOpenFiles": [
-    "apollo使用docker-compose部署.md",
     "投资记录.md",
-    "assets/Pasted image 20231024141830.png",
+    "apollo使用docker-compose部署.md",
+    "使用Minikube搭建kubernetes.md",
+    "投资记录/Pasted image 20231024141830.png",
+    "投资记录",
     "docker和k8s常见问题记录.md",
     "未命名.canvas",
     "接入disconf使用docker部署jar包启动无法指定配置参数.md",
@@ -169,7 +171,6 @@
     "投资策略.md",
     "template",
     "使用GitLab-CI实现CI-CD.md",
-    "使用Minikube搭建kubernetes.md",
     "ElasticSearch配置外网访问，开放9200端口.md",
     "assets/Pasted image 20231024114452.png",
     "assets",
