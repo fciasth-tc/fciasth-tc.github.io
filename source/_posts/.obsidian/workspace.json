@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "apollo使用docker-compose部署.md",
+                "file": "使用Minikube搭建kubernetes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "apollo使用docker-compose部署.md",
+                "file": "使用Minikube搭建kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "apollo使用docker-compose部署.md",
+                "file": "使用Minikube搭建kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,45 +125,54 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "apollo使用docker-compose部署.md"
+                "file": "使用Minikube搭建kubernetes.md"
               }
             }
+          },
+          {
+            "id": "d869f7c11fa6db72",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
+      "switcher:打开快速切换": true,
+      "graph:查看关系图谱": true,
+      "canvas:新建白板": true,
+      "daily-notes:打开/创建今天的日记": true,
+      "templates:插入模板": true,
+      "command-palette:打开命令面板": true,
       "templater-obsidian:Templater": false
     }
   },
   "active": "d33a527155f0aa23",
   "lastOpenFiles": [
-    "投资笔记.md",
+    "apollo使用docker-compose部署.md",
+    "投资记录.md",
+    "assets/Pasted image 20231024141830.png",
+    "docker和k8s常见问题记录.md",
+    "未命名.canvas",
+    "接入disconf使用docker部署jar包启动无法指定配置参数.md",
     "template/hexo.md",
     "git如何更新fork的项目到原项目的最新版本.md",
-    "docker和k8s常见问题记录.md",
-    "apollo使用docker-compose部署.md",
     "5款好用的开源Docker工具.md",
     "投资策略.md",
-    "接入disconf使用docker部署jar包启动无法指定配置参数.md",
     "template",
     "使用GitLab-CI实现CI-CD.md",
     "使用Minikube搭建kubernetes.md",
     "ElasticSearch配置外网访问，开放9200端口.md",
     "assets/Pasted image 20231024114452.png",
     "assets",
-    "Pasted image 20231020144853.png",
-    "未命名.canvas"
+    "Pasted image 20231020144853.png"
   ]
 }
