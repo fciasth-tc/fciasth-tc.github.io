@@ -1,0 +1,158 @@
+{
+  "main": {
+    "id": "eded462e970f93c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "f13f6f561ab65223",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "245b4ba69116852c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "投资笔记.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f91a7074931ae527",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b637d464b8c0a76",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5e1eb35158bd7b16",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c6458400c693782f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6602a846ced04187",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 377.5
+  },
+  "right": {
+    "id": "735c23d8d572b2aa",
+    "type": "split",
+    "children": [
+      {
+        "id": "73fc3843bdac926c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f145875bd518b366",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "投资笔记.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c231e9a7deed660e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "投资笔记.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0c5ce5970fb89c9a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "56137e6d53239406",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "投资笔记.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "5e1eb35158bd7b16",
+  "lastOpenFiles": [
+    "使用Minikube搭建kubernetes.md",
+    "assets/Pasted image 20231024114452.png",
+    "投资笔记.md",
+    "assets",
+    "Pasted image 20231020144853.png",
+    "未命名.canvas"
+  ]
+}
